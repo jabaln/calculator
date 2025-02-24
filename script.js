@@ -12,6 +12,8 @@ function calculate() {
         display.value = 'I love you';
     if (expression.match(/[1]+[+][1]+/))
             display.value = 'I love you Aurel';
+    if (expression.match(/[29]+[+][23]+/))
+            display.value = 'We Are Forever Okaay?';
     } else {
         try {
             display.value = eval(expression);
